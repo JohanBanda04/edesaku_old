@@ -29,7 +29,7 @@
                     </a>
                     <ul class="dropdown-menu dropdown-menu-lg-end" aria-labelledby="navbarDropdown">
                         @guest
-                            <li><a class="dropdown-item" href="/login">Maasukk</a></li>
+                            <li><a class="dropdown-item" href="/login">Masukk</a></li>
                         @endguest
                         @auth
                             @role('Village')
